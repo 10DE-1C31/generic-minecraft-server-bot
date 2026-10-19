@@ -93,10 +93,10 @@ client.on(`messageCreate`, async (Message) => {
 
     if (!cmd) return
 
-//   if (cmd === `setip` || cmd === `cfg` || cmd === `resetcfg` || cmd === `startmonitor` || cmd === `stopmonitor`) {
-//       if (!Message.member.permissions.has(`ManageGuild`))
-//          return Message.reply(`You need the \`Manage Server\` permission to use this command`)
-//    }
+   if (cmd === `setip` || cmd === `cfg` || cmd === `resetcfg` || cmd === `startmonitor` || cmd === `stopmonitor`) {
+       if (!Message.member.permissions.has(`ManageGuild`))
+          return Message.reply(`You need the \`Manage Server\` permission to use this command`)
+    }
 
  if (cmd === 'test') {
         return Message.channel.send(`Test successful :)`);
