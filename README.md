@@ -1,5 +1,5 @@
 # Generic Minecraft Server Bot
-A simple Discord bot to ping Minecraft servers and monitor their status
+A simple Discord bot to ping Minecraft servers and monitor status
 
 ## Features
 ### One time server ping (`ping`)
