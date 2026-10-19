@@ -37,7 +37,7 @@ Stops updating the status of the saved server address
 1. Clone the repository
 2. Run `npm install` to install dependencies
 3. Register the bot with Discord 
-   https://discord.com/developers
+   https://discord.com/developers/applications
 4.  Create a file named `.env` with `DISCORD_TOKEN=` followed by the token you got from Discord Developer Portal
 5. Open your terminal in the cloned repo folder
 6. Run the bot with `node index.js`
