@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^18.0.7",
+    "mc-server-ping": "^1.0.0",
+    "minecraft-server-util": "^5.4.4",
+    "minecraftstatuspinger": "^1.2.2"
+  }
+}
